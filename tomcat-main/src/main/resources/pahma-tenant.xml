@@ -12,7 +12,6 @@
 
 			<include src="base-other-locality.xml" />
 			<include src="base-collectionobject.xml,
-					extensions/annotation-collectionobject.xml,
 					extensions/nagpra-collectionobject.xml,
 					anthropology-collectionobject.xml,
 					ucb-naturalhistory-collectionobject.xml,
@@ -67,7 +66,7 @@
 			<include src="base-authz-userrole.xml" />
 			<include src="base-authz-users.xml" />
 
-			<include src="base-other-dimension.xml" merge="xmlmerge.properties" />
+			<include src="base-other-dimension.xml,pahma-other-dimension.xml" merge="xmlmerge.properties" />
 			<include src="base-other-address.xml" />
 			<include src="base-other-hierarchy.xml,pahma-other-hierarchy.xml" merge="xmlmerge.properties" />
 			<include src="base-other-idgenerator.xml,pahma-other-idgenerator.xml" merge="xmlmerge.properties" />
