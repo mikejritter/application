@@ -11,5 +11,10 @@
 			<title-ref>occasion</title-ref>
 			<title>Occasion Concepts</title>
 		</instance>
+		<instance id="concept-nomenclature">
+			<web-url>nomenclature</web-url>
+			<title-ref>nomenclature</title-ref>
+			<title>Nomenclature</title>
+		</instance>
 	</instances>
 </record>
