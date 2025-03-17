@@ -69,18 +69,19 @@
             <field id="handlingLimitationsDetail" />
             <field id="handlingLimitationsRequestor" autocomplete="true" />
             <field id="handlingLimitationsOnBehalfOf" autocomplete="true" />
-            <field id="handlingLimitationsDate" datatype="date" />            
+            <field id="handlingLimitationsDate" datatype="date" />
 		</repeat>
 	</section>
 
 	<section id="correspondence">
 		<repeat id="correspondenceGroupList/correspondenceGroup">
-			<field id="correspondenceDate" datatype="date" />
 			<field id="correspondenceSender" autocomplete="true" />
 			<field id="correspondenceRecipient" autocomplete="true" />
+			<field id="correspondenceType" autocomplete="true" ui-type="enum" />
+			<field id="correspondenceDate" datatype="date" />
 			<field id="correspondenceSummary" />
 			<field id="correspondenceReference" ui-type="enum" />
 		</repeat>
 	</section>
- 
+
 </record>

@@ -43,6 +43,7 @@
       <field id="correspondenceType" autocomplete="true" ui-type="enum" />
       <field id="correspondenceDate" datatype="date" />
       <field id="correspondenceSummary" />
+      <field id="correspondenceReference" ui-type="enum" />
     </repeat>
   </section>
 
